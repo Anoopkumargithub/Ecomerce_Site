@@ -64,6 +64,7 @@ button.white{
 }
 body{
     width: 100%;
+    /* background-color: #222; */
 }
 
 #header{
@@ -416,6 +417,11 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: #222;
+    color: #fff;
+}
+footer h4{
+    color: #fff;
 }
 footer .col{
     display: flex;
@@ -433,20 +439,20 @@ footer h4{
 }
 footer p{
     font-size: 13px;
-    color: #222;
+    color: #fff;
     margin: 0 0 8px 0;
 }
 footer a{
     font-size:  13px;
     text-decoration: none;
-    color: #222;
+    color: #fff;
     margin-bottom: 10px;
 }
 footer .follow{
     margin-top: 20px;
 }
 footer .icon{
-    color: #465b52;
+    color: #fff;
     padding-right: 6px;
     cursor: pointer;
 }
