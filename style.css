@@ -711,6 +711,20 @@ footer .copyright{
     #news .form {
         width: 70%;
     }
+
+    /* Single product */
+
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image{
+        width: 100%;
+        margin-right: 50px;
+    }
+    #prodetails .single-pro-detail{
+        width: 100%;
+    }
 }
 
 
